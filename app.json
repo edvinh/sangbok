@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "D-sektionens sångbok",
+    "description": "The best collection of songs you'll ever find.",
+    "slug": "sangbok",
+    "privacy": "public",
+    "sdkVersion": "20.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#232323",
+    "icon": "./assets/icons/app-icon.png",
+    "androidStatusBarColor": "#232323",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#232323"
+    },
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
