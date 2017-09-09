@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   async componentWillMount () {
-    await AsyncStorage.removeItem('favorites') // Used for debug purposes
+    // await AsyncStorage.removeItem('favorites') // Used for debug purposes
     await Font.loadAsync({
       'Rubik-Black': require('./node_modules/@shoutem/ui/fonts/Rubik-Black.ttf'),
       'Rubik-Bold': require('./node_modules/@shoutem/ui/fonts/Rubik-Bold.ttf'),
